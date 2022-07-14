@@ -1,1 +1,39 @@
-
+.header{
+    background-color:#f9f9f9;
+    width: "100%";
+    height: 80px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.sub_header{
+    background-color: #ffcd48;
+    width: "100%";
+    height: 60px;
+}
+.inter_header{
+    background-color: #3c2066;
+    width: "100%";
+    height: 50px;
+}
+.box{
+    padding-top: 15px;
+    background-color:#f9f9f9;
+    width: "100%";
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_text{
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Jost';
+    padding: 70px;
+    justify-self: center;
+}
+.icon_box{
+    width: 30px;
+    height: 25px;
+}
