@@ -3,18 +3,30 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title> petshop </title>
+    <script src="script.js"></script>
+    <title> ChocoBee </title>
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
 
     <div class="header">
-
+        <p class="title">ChocoBee</p>
+        <div class="perfil_div">
+            <p class="icon_text">
+                <img src="./images/profile_icon.png" class="icon_info">
+                perfil
+            </p>
+            <p class="icon_text">
+                <img src="./images/carrinho_icon.png" class="icon_box">
+                carrinho
+            </p>
+        </div>
     </div>
 
     <div class="sub_header">
@@ -22,10 +34,8 @@
         </div>
     </div>
 
-    <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- Indicators/dots -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -33,7 +43,6 @@
             <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
         </div>
 
-        <!-- The slideshow/carousel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="https://royalpets.vteximg.com.br/arquivos/ids/245246/promo%C3%A7%C3%A3o-truqys-pet-injet-desktop2.png?v=637902048802800000"
@@ -53,7 +62,6 @@
             </div>
         </div>
 
-        <!-- Left and right controls/icons -->
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
@@ -64,21 +72,135 @@
 
     <div class="box">
         <p class="box_text">
-            <img src="https://i.imgur.com/HHCpHfC.png" class="icon_box">
-            Assinatura Petshop
+            <img src="./images/clock_icon.png" class="icon_box">
+            ASSINATURA PETZINHOS
         </p>
         <p class="box_text">
-            <img src="https://i.imgur.com/HHCpHfC.png" class="icon_box">
-            10% OFF na primeira compra
+            <img src="./images/desconto_icon.png" class="icon_box">
+            10% OFF NA PRIMEIRA COMPRA
         </p>
         <p class="box_text">
-            <img src="https://i.imgur.com/wTw0OSH.png" class="icon_box">
-            6X sem juros no cartão de crédito
+            <img src="./images/pix_icon.png" class="icon_box">
+            6X SEM JUROS NO PIX
         </p>
         <p class="box_text">
-            <img src="https://i.imgur.com/twTnUxg.png" class="icon_box">
-            Fretes grátis acima de 99 reais
+            <img src="./images/truck_icon.png" class="icon_box">
+            FRETE GRÁTIS ACIMA DE R$2,00
         </p>
+    </div>
+
+    <p class="title_p">PRODUTOS</p>
+
+    <div class="produtos">
+        <div class="item">
+            <img src="https://royalpets.vteximg.com.br/arquivos/ids/239195-295-295/almofada-para-cachorros-t-bone-anti-pelos-rosa.jpg?v=637699283764700000"
+                class="img_prod">
+
+            <p class="nome_prod">Caminha Inovare</p>
+            <p class="preco_prod">R$169,90</p>
+            <div class="button_prod">
+                <p class="text_button_prod">comprar</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://royalpets.vteximg.com.br/arquivos/ids/232935-295-295/-c-a-caminha_tunel_square_sao_pet_preta.jpg?v=637686957917830000"
+                class="img_prod">
+
+            <p class="nome_prod">Caminha Luxo</p>
+            <p class="preco_prod">R$99,90</p>
+            <div class="button_prod">
+                <p class="text_button_prod">comprar</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://royalpets.vteximg.com.br/arquivos/ids/232935-295-295/-c-a-caminha_tunel_square_sao_pet_preta.jpg?v=637686957917830000"
+                class="img_prod">
+
+            <p class="nome_prod">Caminha Luxo</p>
+            <p class="preco_prod">R$99,90</p>
+            <div class="button_prod">
+                <p class="text_button_prod">comprar</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://royalpets.vteximg.com.br/arquivos/ids/232935-295-295/-c-a-caminha_tunel_square_sao_pet_preta.jpg?v=637686957917830000"
+                class="img_prod">
+
+            <p class="nome_prod">Caminha Luxo</p>
+            <p class="preco_prod">R$99,90</p>
+            <div class="button_prod">
+                <p class="text_button_prod">comprar</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bloguinho">
+        <div class="hm"></div>
+        <p class="title_a">BLOGUINHO</p>
+
+        <div class="produtos">
+            <div class="artigo">
+                <img src="https://royalpets.vteximg.com.br/arquivos/depressao_pet_ajuda.png?v=637794297988600000"
+                    class="img_art">
+
+                <p class="nome_art">Cachorros podem ajudar na depressão?</p>
+
+                <div class="button_art">
+                    <p class="text_button_art">leia mais</p>
+                </div>
+            </div>
+            <div class="artigo">
+                <img src="https://royalpets.vteximg.com.br/arquivos/depressao_pet_ajuda.png?v=637794297988600000"
+                    class="img_art">
+
+                <p class="nome_art">Cachorros podem ajudar na depressão?</p>
+
+                <div class="button_art">
+                    <p class="text_button_art">leia mais</p>
+                </div>
+            </div>
+            <div class="artigo">
+                <img src="https://royalpets.vteximg.com.br/arquivos/depressao_pet_ajuda.png?v=637794297988600000"
+                    class="img_art">
+
+                <p class="nome_art">Cachorros podem ajudar na depressão?</p>
+
+                <div class="button_art">
+                    <p class="text_button_art">leia mais</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <p class="nov_text">receba novidades</p>
+    <div class="input_f">
+        <div class="input">
+            <p class="input_text">nome:</p>
+            <input type='text' id="foto">
+        </div>
+        <div class="input">
+            <p class="input_text">email:</p>
+            <input type='text' id="foto">
+        </div>
+        <div class="button_input">
+            <p class="button_input_text">CADASTRAR</p>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <div class="subrodape">
+            <a href="https://classroom.google.com/u/0/h">
+                <p class="rodape_text"> whatsApp </p>
+            </a>
+            <a href="https://wa.me/899024002?text=Olá,%20vim%20pelo%20site!">
+                <p class="rodape_text"> instagram </p>
+            </a>
+            <a href="https://wa.me/899024002?text=Olá,%20vim%20pelo%20site!">
+                <p class="rodape_text"> email </p>
+            </a>
+
+        </div>
     </div>
 </body>
 </html>
