@@ -2,7 +2,9 @@
     font-family: Josefin_Sans;
     src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
  }
-
+ a:link {
+    text-decoration: none;
+}
 .header{
     flex-direction: row;
     background-color:#f9f9f9;
