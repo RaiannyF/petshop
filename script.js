@@ -1,1 +1,1 @@
-
+(document.getElementById(`nome`).value)
